@@ -25,7 +25,7 @@ def foo
 end
 {% endhighlight %}
 
-{% for c in page.source %}
+{% for sls in page.source %}
 
   {% capture filePath %}/code/{{c}}{% endcapture %}
 
