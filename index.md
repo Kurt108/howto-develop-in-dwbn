@@ -17,6 +17,14 @@ def foo
 end
 {% endhighlight %}
 
+with line numbers
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
 
 [composer](https://github.com/JaXt0r/devops-dwbn/blob/fff2a843702a7ebf46b35c2a26794df531a3d68a/qa/composer/init.sls#L7-22)
 
