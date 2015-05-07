@@ -25,16 +25,9 @@ def foo
 end
 {% endhighlight %}
 
-{% for sls in page.source %}
-
-  {% capture filePath %}/code/{{c}}{% endcapture %}
-
-  <a href="{{filePath}}">{{c}}</a>
-
-  {% highlight c %}
-  {% include_relative {{ filePath }} %}
+  {% highlight ruby %}
+  {% include_relative code/init.sls %}
   {% endhighlight %}
-{% endfor %}
 
 
 [composer](https://github.com/JaXt0r/devops-dwbn/blob/fff2a843702a7ebf46b35c2a26794df531a3d68a/qa/composer/init.sls#L7-22)
