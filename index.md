@@ -25,7 +25,7 @@ def foo
 end
 {% endhighlight %}
 
-  {% highlight ruby %}
+  {% highlight ruby lineos mark:7-22 %}
   {% include_relative code/init.sls %}
   {% endhighlight %}
 
