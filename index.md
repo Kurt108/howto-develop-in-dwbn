@@ -11,7 +11,7 @@ Start by [creating a new post](http://jekyllrb.com/docs/posts/) one of the categ
 ruby bin/jekyll-page "Some Page Title" ref
 ```
 
-  {% highlight ruby lineos mark:7-22 %}
+  {% highlight ruby lineos %}
   {% include_relative code/init.sls %}
   {% endhighlight %}
 
