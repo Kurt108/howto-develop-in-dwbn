@@ -25,6 +25,17 @@ def foo
 end
 {% endhighlight %}
 
+{% for c in page.source %}
+
+  {% capture filePath %}/code/{{c}}{% endcapture %}
+
+  <a href="{{filePath}}">{{c}}</a>
+
+  {% highlight c %}
+  {% include_relative {{ filePath }} %}
+  {% endhighlight %}
+{% endfor %}
+
 
 [composer](https://github.com/JaXt0r/devops-dwbn/blob/fff2a843702a7ebf46b35c2a26794df531a3d68a/qa/composer/init.sls#L7-22)
 
