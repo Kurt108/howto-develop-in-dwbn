@@ -1,3 +1,18 @@
+'''
+this is a comment
+
+.. code-block:: yaml
+
+    fred:
+      user.present:
+        - fullname: Fred Jones
+        - shell: /bin/zsh
+        - home: /home/fred
+
+
+'''
+
+
 include:
     - php
     - php.cli
